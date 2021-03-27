@@ -18,20 +18,38 @@
     <body>
 
         <header>
-            <div id="head">
+            <div id="head" class="micon">
                 <i class="fas fa-feather-alt fa-xs"></i>
             </div>
-            <div id="nav">
-                <i class="fas fa-ellipsis-h fa-xs"></i>
-            </div>
+            <!-- <div id="nav">
+                <i onclick="navbar()" class="fas fa-ellipsis-h fa-xs"></i>
+            </div> -->
             
         </header>
-
-        
+        <div class="vid">
+            <video autoplay mute loop>
+            <source src="videos/rain.mp4" type="video/mp4">
+            </video>
+        </div>
+        <nav>
+            <div class="navbox">
+             
+            </div>
+            <div class="navtext">
+                <ul>
+                    <li>NOW</li>
+                    <li>HOURLY</li>
+                    <li>DAILY</li>
+                    <li>RADAR</li>
+                    <li>MONTHLY</li>
+                    <li>AIR QUALITY</li>
+                </ul>
+                </div>
+        </nav>
         <div id="bar">
             <input type="text" class="search-box" placeholder="  Search for a city...">
         </div>
-        <section id="main">     
+    <section id="main">     
             <div id="city">Kirtipur</div>
             <div id="date">13th March 2021 Saturday</div>
         <div class="current">
@@ -41,10 +59,7 @@
         </div>
     </section>
 
-       <!-- <video autoplay mute loop id="rain">
-            <source src="videos/rain.mp4" type="video/mp4">
-                Your browser does not support HTML5 video.
-        </video>-->
+       
 
         <script src="script.js" async defer></script>
     </body>
